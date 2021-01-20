@@ -23,6 +23,8 @@ docker run --rm -it --network spark-docker-compose_spark-network $MYNAME/spark:l
 #To then from teh container
 /spark/bin/spark-submit --master spark://spark-master:7077 --class org.apache.spark.examples.SparkPi /spark/examples/jars/spark-examples_2.11-2.4.7.jar 1000
 
+#To browse the jobs in teh spark UI go to:
+http://localhost:8080/
 
 #####Running without docker-compose#####
 
