@@ -1,5 +1,7 @@
+The background of this repo is in my blog: https://jacace.wordpress.com/2021/01/20/setting-up-a-spark-cluster-with-docker-compose/
+
 #####Pre-reqs#####
-<br>
+
 #You need to setup the ENV Var below:
 export MYNAME=spark-jacace
 
